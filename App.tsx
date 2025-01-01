@@ -71,7 +71,8 @@ function App(): React.JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
+        {/* <Header /> */}
+        <Text style={{color:"orange"}}>React Native 2025</Text>
       
       </ScrollView>
     </SafeAreaView>
